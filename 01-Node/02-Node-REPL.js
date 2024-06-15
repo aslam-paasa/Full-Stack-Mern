@@ -5,8 +5,8 @@
  * 3. Print
  * 4. Loop
  * 
- * => Jaise humaare browser k andr ek console window hoti hai, similarly ek window
- *    humein Node provide krta hai. Aur uss window ko kholne k liye hum likhte hai
+ * => Jaise humaare browser k andr ek console window hoti hai, similarly node v humein
+ *    ek window provide krta hai. Aur uss window ko kholne k liye hum  cmd m likhte hai
  *    "node". 
  * 
  * => Node Files :

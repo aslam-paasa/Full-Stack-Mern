@@ -1,11 +1,29 @@
 /**
  * Getting started with Express :
+ * 
+ * Q. How to create a server using express?
+ * (1) First, create a new folder and intialize it with a blank "package.json" file using the command below: npm inti -y
+ * (2) The -y flag when passed to NPM commands tells the generator to use the defaults instead of asking question.
+ * (3) "npm init -y" will simply generate an empty npm project without going through an interactive process.
+ * (4) To install the latest and stable version Express in your project, run the following command: npm i express
+ *     => Upon execution of this command, you will have the express framework installed in your project. Let's create
+ *        a sample code to test out Express JS Framework.
+ * 
+ * Web Server:
  * => "express()" is stored in "app" jo humein "server-side" wali web application
  *    create krne m help karega. And this "app" is an object. Iss object k andr
  *    bahut saare functions hai like "listen". Listen ek webserver bnata hai jo
  *    incoming API request k liye listen krta hai aur jaise hi ye webserver start
  *    ho jaega to hm print krwa dete hai "app" is listening. Aur isse clearity mil
- *    jaegi ki humara server start ho gya hai.
+ *    jaegi ki humara server start ho gya hai. Basically this express() function 
+ *    returns an object which can be used to configure Express application.
+ * => The app object includes methods for routing HTTP requests, configuring middleware,
+ *    rendering HTML views and registering a template engine.
+ * => The app.listen() function creates the Node.JS web server at the specified host 
+ *    and port. It's identical to Node's http.Server.listen() method.
+ * => Run the above example using "node fileName.js" command and point your browser tp
+ *    "http://localhost:8080". It will display "Cannot GET/"  because we have not configured
+ *    any routes yet.
 */
 
 
